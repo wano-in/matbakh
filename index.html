@@ -1,80 +1,134 @@
-
 <!DOCTYPE html>
 <html lang="ms">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Matbakh - Produk Perap Premium</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matbakh - Produk Perap</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
+      font-family: 'Inter', sans-serif;
+      background-color: #fff;
+      color: #111;
       margin: 0;
       padding: 0;
-      background: #fff;
-      color: #222;
     }
     header {
       background-color: #8B0000;
-      color: white;
+      color: #fff;
       padding: 20px;
       text-align: center;
     }
     section {
-      padding: 20px;
+      padding: 30px;
+      max-width: 800px;
+      margin: auto;
     }
     h2 {
-      color: #8B0000;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+      margin-top: 40px;
     }
-    .button {
+    .product {
+      margin-bottom: 20px;
+    }
+    .highlight {
+      background-color: #fef3c7;
+      padding: 10px;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+    .btn {
+      display: inline-block;
       background-color: #8B0000;
       color: white;
       padding: 10px 20px;
-      border: none;
       border-radius: 8px;
       text-decoration: none;
-      font-size: 16px;
-      display: inline-block;
-      margin-top: 10px;
+      font-weight: bold;
+      margin-top: 20px;
     }
-    .poster {
+    img {
       width: 100%;
-      max-width: 500px;
-      margin: 10px auto;
-      display: block;
       border-radius: 12px;
+      margin-bottom: 20px;
     }
     footer {
       text-align: center;
       padding: 20px;
-      background: #f2f2f2;
+      background: #f3f3f3;
+      margin-top: 50px;
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Matbakh</h1>
+    <h1>Matbakh - Produk Perap Sedap & Juicy!</h1>
     <p>Kalau Dah Rasa, Confirm Repeat Order!</p>
   </header>
 
   <section>
-    <h2>Produk Kami</h2>
-    <img src="poster-produk.png" alt="Poster Harga Produk" class="poster">
-    <a href="https://wa.me/601135130575" class="button">Tempah Sekarang</a>
-  </section>
+    <img src="https://matbakh-assets.s3.amazonaws.com/poster-harga.png" alt="Poster Harga Matbakh">
 
-  <section>
-    <h2>Jadi Agen Matbakh</h2>
-    <p>Dapatkan keuntungan sehingga RM7/pek!</p>
-    <a href="https://wa.me/601135130575?text=Saya%20berminat%20jadi%20agen%20Matbakh" class="button">Daftar Sebagai Agen</a>
-  </section>
+    <h2>🛒 Produk Kami</h2>
+    <div class="product">
+      <strong>🐔 Ayam Perap</strong><br>
+      Harga: <strong>RM30.90</strong> / pek
+    </div>
+    <div class="product">
+      <strong>🥩 Daging Perap</strong><br>
+      Harga: <strong>RM30.90</strong> / pek
+    </div>
+    <div class="product">
+      <strong>🐐 Kambing Perap</strong><br>
+      Harga: <strong>RM30.90</strong> / pek
+    </div>
 
-  <section>
-    <h2>Penghantaran</h2>
-    <p>📦 Rabu & Jumaat<br>🕗 8 malam – 11 malam<br>🚗 Kadar penghantaran ikut jarak (Free delivery untuk RM100 ke atas)</p>
+    <div class="highlight">
+      📦 Penghantaran: <br>
+      Rabu & Jumaat (8PM - 11PM)<br>
+      <br>
+      🚗 Caj Penghantaran:
+      <ul>
+        <li>0–5km: RM5</li>
+        <li>6–10km: RM8</li>
+        <li>11–15km: RM12</li>
+        <li>16–20km: RM15</li>
+        <li>21–30km: RM20</li>
+        <li>>30km: Rundingan</li>
+      </ul>
+      🎁 <strong>Free Delivery</strong> untuk order RM100 ke atas (bawah 10km)
+    </div>
+
+    <a href="https://wa.me/601135130575" class="btn">WhatsApp Untuk Order</a>
+
+    <h2>🤝 Nak Jadi Agen?</h2>
+    <div class="highlight">
+      Harga Beli Agen:
+      <ul>
+        <li>Ayam: RM23</li>
+        <li>Daging: RM23</li>
+        <li>Kambing: RM23</li>
+      </ul>
+      Harga Jual Minimum (SRP):
+      <ul>
+        <li>Ayam: RM28</li>
+        <li>Daging: RM28</li>
+        <li>Kambing: RM28</li>
+      </ul>
+      ❗ Dilarang jual bawah SRP.
+      <br>
+      📦 Boleh simpan stok atau dropship.
+      <br>
+      📲 Daftar agen hari ini!
+    </div>
+
+    <a href="https://wa.me/601135130575" class="btn">Daftar Agen Sekarang</a>
   </section>
 
   <footer>
-    © 2025 Matbakh. Semua Hak Cipta Terpelihara.
+    © 2025 Matbakh. Semua Hak Terpelihara.
   </footer>
 </body>
 </html>
